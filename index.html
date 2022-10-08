@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>NovaBrocker</title>
   <!-- ======================================= -->
   <!-- =====         GOOGLE FONTS         ==== -->
   <!-- ======================================= -->
-
-
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- =============================== -->
   <!-- =====       STYLES        ===== -->
   <!-- =============================== -->
@@ -18,14 +18,103 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header"></header>
+  <section class="site-header-hero">
+    <header class="site-header">
+      <div class="container site-header-container">
+        <a class="site-header-logo" href="index.html"><img class="site-logo-img" src="icons/site-logo-header.svg" alt="site-logo"></a>
+        <a class="site-header-phone-link" href="#"><img class="site-header-phone-link-img" src="icons/phone-transparent.svg" alt="">068 034 340</a>
+      </div>
+    </header>
+    <div class="site-hero">
+      <div class="container hero-container">
+        <h1 class="hero-heading">
+          Asigurare RCA online
+        </h1>
+        <p class="hero-text">Economisește timp și calculează online Asigurarea RCA în doar câteva minute. În doar 3 pași simpli, vei primi Asigurarea electronică.</p>
+        <a class="button button-hero">Calculează</a>
+        <span class="hero-span">sau <a class="hero-span-link" href="#">solicită un apel</a></span>
+      </div>
+    </div>
+  </section>
+  <!-- ******************************************* -->
+  <!-- *****          MAIN SECTION           ***** -->
+  <!-- ******************************************* -->
+  <main class="main-content">
+    <section class="cashback-section">
+      <div class="container">
+        <div class="cashback">
+          <div class="cashback-info">
+            <h2 class="cashback-title">10% CASHBACK</h2>
+            <p class="cashback-text">Cu Asigurarea electronică RCA de la NOVABROKER beneficiezi
+              de 10% cashback anual și multe alte oferte!</p>
+            </div>
+            <img src="img/cashback.svg" alt="cash" class="cashback-img">
+          </div>
+          <h2 class="follow-heading">Urmează 3 pași simpli și primește asigurarea în doar 10 minute</h2>
+          <ol class="easy-steps-list">
+            <!-- * item 1 * -->
+            <li class="easy-steps-item">
+              <h3 class="steps-item-title">Calculează asigurarea</h3>
+              <p class="steps-item-text">Completează formularul de mai jos.</p>
+            </li>
+            <!-- * item 2 * -->
+            <li class="easy-steps-item">
+              <h3 class="steps-item-title">Achită online </h3>
+              <p class="steps-item-text">Achită cu Visa sau MasterCard.</p>
+            </li>
+            <!-- * item 3 * -->
+            <li class="easy-steps-item">
+              <h3 class="steps-item-title">Primește asigurarea</h3>
+              <p class="steps-item-text steps-item-text-3">Asigurarea va fi expediată pe e-mail în scurt timp.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <!-- * * Calculate the insurance * * -->
+      <section class="calculate">
+        <div class="container">
+          <h3 class="calculate-heading">Calculează asigurarea</h3>
+          <p class="calculate-text">Completează formularul de mai jos.</p>
+          <div class="upload-complete-wrapper">
+            <div class="upload-pic">
+              <img src="icons/img-icon.svg" class="upload-img" width="51" height="47">
+              <div class="upload-pic-content">
+                <h3 class="upload-pic-title">ÎNCARCĂ POZE CU PAȘAPORTUL TEHNIC</h3>
+                <p class="upload-pic-text">Încarcă poze cu pașaportul tehnic față și verso al autovehiculului, lasă-ne datele de contact și vei primi oferta de preț exact în doar câteva minute.</p>
+              </div>
+              <label class="card-label" for="passport" aria-label="Upload pictures with your technical passport" tabindex="4">
+                <img class="card-input-img" src="icons/white-plus.svg" alt="" aria-hidden="true">
+                <input class="card-input visually-hidden" type="file" id="passport" required="">
+              </label>
+            </div>
+            <!-- ===================== -->
+            <div class="complete-manual">
+              <img src="icons/write-icon.svg" class="complete-man-img" width="49" height="49">
+              <div class="complete-manual-content">
+                <h3 class="complete-manual-title">COMPLETEAZĂ MANUAL</h3>
+                <p class="complete-manual-text">Lasă-ne detaliile mai jos și vei primi oferta de preț exact în doar câteva minute.
+                </p>
+              </div>
+              <label class="card-label" for="manual" aria-label="Fill in manually" tabindex="5">
+                <img class="card-input-img" src="icons/dark-blue-plus.svg" alt="" aria-hidden="true">
+                <input class="card-input visually-hidden" type="file" id="manual" required="">
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- * phone * -->
+        <div class="click-here">
+          <div class="container">
+            <p class="click-here-text">
+              Lasă-ne un număr de telefon sau click aici ca să iei legătura cu un specialist în live chat.
+             </p>
+          </div>
 
+        </div>
+      </section>
 
-<!-- ******************************************* -->
-<!-- *****          MAIN SECTION           ***** -->
-<!-- ******************************************* -->
-<main class="main-content"></main>
+    </main>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
