@@ -557,3 +557,53 @@ img
   padding: 0;
   margin: 0;
 }
+/* * electronic-rca * */
+.electronic-rca {
+  position: relative;
+  margin-bottom: 170px;
+}
+.electronic-rca-content {
+  max-width: 1370px;
+  background-color: rgb(235, 36, 42, 0.05);
+  padding: 142px 161px 237px;
+  border-radius: 25px;
+  margin-left: 55px;
+}
+.electronic-rca-heading {
+  width: 744px;
+  font-family: Roboto;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.17px;
+  text-align: left;
+  color: #001A49;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.electronic-rca-text {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color: #57606A;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.electronic-rca-video {
+  position: absolute;
+  right: 55px;
+  top: 174px;
+  max-width: 172px;
+  padding: 215px 385px;
+  background-color: #001A49;
+  border-radius: 30px;
+  box-shadow: 0px 47.3172721862793px 65.06124877929688px 0px #818A8C;
+}
+.electronic-rca-video-play-icon {
+  display: inline-block;
+  cursor: pointer;
+}
