@@ -38,7 +38,7 @@ img
 .container
 {
   width: 100%;
-  max-width: 1370px;
+  max-width: 1520px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -80,10 +80,9 @@ img
 }
 /* * * header * * */
 .site-header-hero {
-  background-color: rgb(229, 229, 229, 0.8);
-  background-image: url(../img/hero-bg.svg);
-  background-position: right -200px top;
-  background-size: contain;
+  background-color: #e5e5e5;
+  background-image: url(../img/hero-bg.svg), linear-gradient(212.6deg, #FFFFFF 3.87%, rgba(255, 255, 255, 0) 45.48%);
+  background-position: calc(50% + 350px) 30px;
   background-repeat: no-repeat;
 }
 .site-header {
@@ -336,11 +335,13 @@ img
   margin-bottom: 200px;
 }
 .upload-pic {
+  width: 720px;
   display: flex;
   background-color: #EB242A;
   padding: 25px 40px;
   border: none;
   border-radius: 21px;
+  margin-right: 45px;
 }
 .upload-img {
   width: 51px;
@@ -379,6 +380,7 @@ img
   padding: 0;
 }
 .complete-manual {
+  width: 720px;
   display: flex;
   border: 3px solid #EB242A;
   border-radius: 21px;
@@ -390,7 +392,7 @@ img
   margin-right: 40px;
 }
 .complete-manual-content {
-  margin-right: 75px;
+  margin-right: 100px;
 }
 .complete-manual-title {
   width: 195px;
@@ -426,8 +428,8 @@ img
   cursor: pointer;
 }
 .card-input-img {
-  width: 50px;
-  height: auto;
+  width: 60px;
+  height: 60px;
 }
 .click-here
 {
